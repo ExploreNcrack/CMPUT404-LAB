@@ -8,12 +8,11 @@ print(requests.__version__)
 # 2.21.0 in virtual env
 
 
-# For getting Google homepage
-r = requests.get("http://www.google.com")
-print(r.status_code)
-print(r.text)
 
-# For getting python script on github
+# r = requests.get("http://www.google.com")
+# print(r.status_code)
+# print(r.text)
+
 r = requests.get("https://github.com/ExploreNcrack")
 print(r.status_code)
 print(r.text)
