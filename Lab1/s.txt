@@ -1,0 +1,41 @@
+python --version :to check the version of python
+which python :check which python is using
+
+
+
+the reason why we use virtual env because we want the dependancy attach to the project itself
+this make sure that everyone working in the same group are using the same version env/library
+
+
+
+deactivate : to quit the virtual env
+
+
+curl is a program that retrieve the stuff at given ip address
+
+curl
+
+curl -i  : for inspecting HTTP header
+
+curl -iL : return the whole page content
+
+curl -i http://google.com/    for getting the header status
+
+status code return is : 301
+
+curl http://google.com/teapot
+
+
+dir(object): print out all the attributes in a class
+
+
+gitignore.io
+-finding what to ignore
+
+pip freeze > requirement.txt
+
+make file executable: chmod +x filename
+
+add 
+#!/usr/bin/env python
+
