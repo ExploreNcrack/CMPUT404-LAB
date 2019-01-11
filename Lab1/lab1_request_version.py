@@ -14,6 +14,6 @@ print(r.status_code)
 print(r.text)
 
 # For getting python script on github
-r = requests.get("https://github.com/ExploreNcrack")
+r = requests.get("https://raw.githubusercontent.com/ExploreNcrack/CMPUT404-LAB/master/Lab1/lab1.py")
 print(r.status_code)
 print(r.text)
