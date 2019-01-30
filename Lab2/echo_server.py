@@ -20,7 +20,9 @@ def main():
 
 		# listen forever for connection
 		while True:
-			conn, addr = s.accept() # accept incoming connections	
+			conn, addr = s.accept() # accept incoming connections
+			print(s.accept())
+			print("Connected to: ")	
 			full_data = b""  # byte string
 			while True:
 				data = conn.recv(Buffer_Size)
