@@ -23,7 +23,7 @@ gunicorn==19.9.0
 hyperlink==18.0.0
 idna==2.6
 incremental==17.5.0
-lxml==4.2.1
+lxml==4.6.2
 Markdown==2.6.11
 matplotlib==2.0.2
 nltk==3.4
